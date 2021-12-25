@@ -144,12 +144,17 @@ def tampil():
             menu()
             menu()
 ```
-* dibawah ini adalah program untuk keluar atau mengakhiri proggram            
+* dibawah ini adalah program untuk keluar atau mengakhiri program            
 
 ```python
 elif pilih ==5 :
         exit()
 ```
 ### Berikut program ketika dijlankan
+* dibawah ini adalah tampilan menu ketika program dijalankan
 
 ![gambar2](ss/ss1.PNG)
+
+* dibawah tampilan ketika memasukan no 1, apabila kita melanjutkan y maka akan melanjutkan dan menambahkan data, sedangkan jika kita melanjutkan T maka kita akan di arahkan ke menu utama
+
+![gambar3](ss/ss2.PNG)
