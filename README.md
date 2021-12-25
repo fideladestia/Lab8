@@ -27,7 +27,7 @@ class mahasiswa:
 pilih=0
 datasiswa=[]
 ```
-* dibawah ini adalahprogram atau method untuk menampilkan daftar menu
+* dibawah ini adalah program atau method untuk menampilkan daftar menu
 
 ```python
 def menu():
@@ -89,3 +89,22 @@ def menu():
     elif pilih ==5 :
         exit()
 ```        
+* dibawah ini adalah program untuk menambahkan data
+
+```python
+def pilih1():
+    ulang = "Y"
+    while ulang in("y","Y"):
+        system("cls")
+        siswabaru=mahasiswa()
+        print("INPUT DATA MAHASISWA")
+        siswabaru.nim=(int(input("Masukan NIM            : ")))
+        siswabaru.nama=(input("Masukan Nama Mahasiswa : "))
+        siswabaru.tugas=(float(input("Masukan Nilai Tugas    : ")))
+        siswabaru.uts=(float(input("Masukan Nilai UTS      : ")))
+        siswabaru.uas=(float(input("Masukan Nilai UAS      : ")))
+        siswabaru.akhir=siswabaru.tugas*0.30 + siswabaru.uts*0.35 + siswabaru.uas*0.35
+        datasiswa.append(siswabaru)
+        ulang=input("Apakah Anda Ingin Mengulang (Y/T)? ")
+menu()
+```
