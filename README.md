@@ -158,3 +158,9 @@ elif pilih ==5 :
 * dibawah tampilan ketika memasukan no 1, apabila kita melanjutkan y maka akan melanjutkan dan menambahkan data, sedangkan jika kita melanjutkan T maka kita akan di arahkan ke menu utama
 
 ![gambar3](ss/ss_2.PNG)
+
+* dibawah ini adalah tampilan, menampilkan keseluruhan data yang sudah disimpan
+
+![gambar4](ss/ss3.PNG)
+
+### Sekian dan Terima kasih
