@@ -108,3 +108,48 @@ def pilih1():
         ulang=input("Apakah Anda Ingin Mengulang (Y/T)? ")
 menu()
 ```
+* dibawah ini adalah code untuk menampilkan data yang sudah tersimpan, cara mengaksesnya dengan mengetikan angka 2 ditampilan menu
+
+```python
+def tampil():
+    system("cls")
+    print("DATA MAHASISWA")
+    for data in datasiswa:
+        print("Nim          : "+str(data.nim)) 
+        print("Nama         : "+data.nama)
+        print("Nilai Tugas  : "+str(data.tugas))
+        print("Nilai UTS    : "+str(data.uts))
+        print("Nilai UAS    : "+str(data.uas))
+        print("Nilai Akhir  : "+str(data.akhir))
+        print("-"*18)
+```
+* dibawah ini adalah program untuk menghapus data        
+
+```python
+ elif pilih ==4:
+        system("cls")
+        tampil()
+        index_update=-1
+        id_hapus = int(input("Input NIM Yang Akan Dihapus"))
+        for a in range (0, len(data)):
+            if id_hapus==datasiswa[a].nim:
+                index_delete = a
+                break
+        if(index_delete > -1):
+            del datasiswa[index_delete]
+            print("Data Telah Dihapus")
+        else: 
+            print("NIM Tidak Ditemukan")
+            input("Kembali Menu Utama")
+            menu()
+            menu()
+```
+* dibawah ini adalah program untuk keluar atau mengakhiri proggram            
+
+```python
+elif pilih ==5 :
+        exit()
+```
+### Berikut program ketika dijlankan
+
+![gambar2](ss/ss1.PNG)
