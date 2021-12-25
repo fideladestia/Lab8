@@ -3,4 +3,4 @@
 
 <p> Berikut ini adalah flowchatnya
 
-![gambar1](ss/ssflowchart.1.png)
+![gambar1](ss/ssflowchart.1.JPG)
