@@ -157,4 +157,4 @@ elif pilih ==5 :
 
 * dibawah tampilan ketika memasukan no 1, apabila kita melanjutkan y maka akan melanjutkan dan menambahkan data, sedangkan jika kita melanjutkan T maka kita akan di arahkan ke menu utama
 
-![gambar3](ss/ss2.PNG)
+![gambar3](ss/ss_2.PNG)
